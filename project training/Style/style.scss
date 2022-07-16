@@ -1,0 +1,47 @@
+@import 'swiper';
+@import 'privateArea';
+@import 'man';
+
+
+
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  text-transform: capitalize;
+  font-family: sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+
+
+  .main-page-img{
+    background-image: url('https://images.unsplash.com/photo-1599058917212-d750089bc07e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGd5bSUyMHdvcmtvdXR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60');
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+  }
+
+ .x{
+     font-size: 200%;
+ }
+
+ .hidan{
+ 
+  display: none;
+
+}
+
+.user-logo{
+  font-size: 13vh;
+  color:rgb(92, 92, 161);
+}
+
+.log-in{
+  position: absolute;
+  top: 40%;
+  left: 12%;
+  display: none;
+}
+
